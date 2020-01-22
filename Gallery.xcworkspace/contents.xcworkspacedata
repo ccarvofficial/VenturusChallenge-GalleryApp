@@ -40,6 +40,12 @@
          location = "group:landscape"
          name = "landscape">
          <FileRef
+            location = "group:screenshot-08.png">
+         </FileRef>
+         <FileRef
+            location = "group:screenshot-09.png">
+         </FileRef>
+         <FileRef
             location = "group:screenshot-05.png">
          </FileRef>
          <FileRef

@@ -42,11 +42,9 @@ class HomeController: UICollectionViewController {
         collectionView.backgroundColor = .white
         collectionView.register(HeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: headerIdentifier)
         collectionView.register(GalleryCell.self, forCellWithReuseIdentifier: cellIdentifier)
-        collectionView.contentInsetAdjustmentBehavior = .never
+        collectionView.contentInsetAdjustmentBehavior = .always
     
         guard let flowLayout = collectionView?.collectionViewLayout as? UICollectionViewFlowLayout else { return }
-        flowLayout.minimumInteritemSpacing = margin
-        flowLayout.minimumLineSpacing = margin
         flowLayout.sectionInset = UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin)
     
         self.collectionView.delegate = self
@@ -103,8 +101,14 @@ extension HomeController: UICollectionViewDelegateFlowLayout {
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let width = (view.frame.width - 52) / 3
-        return CGSize(width: width, height: width)
+        if UIDevice.current.orientation.isLandscape {
+            let width = (view.frame.width - 52 - 100) / 3
+            return CGSize(width: width, height: width)
+        }
+        else {
+            let width = (view.frame.width - 52) / 3
+            return CGSize(width: width, height: width)
+        }
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
