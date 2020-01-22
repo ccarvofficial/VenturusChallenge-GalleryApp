@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/feature/readme-file/Screenshots/body/header.png" alt="Gallery iOS App"/>
+  <img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/develop/Screenshots/body/header.png" alt="Gallery iOS App"/>
 </p>
 
 # Gallery iOS App
@@ -16,7 +16,7 @@
 The app features a Single Page View, containing a finite gallery of cats images, fetched from Imgur API.
 
 <p align="center">
-  <img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/feature/readme-file/Screenshots/body/main.png" alt="Gallery iOS App"/>
+  <img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/develop/Screenshots/body/main.png" alt="Gallery iOS App"/>
 </p>
 
 ## Description
@@ -44,10 +44,10 @@ Below is an overview of the functionality implemented:
 
 <table style="width:100%">
   <tr>
-    <td><img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/feature/readme-file/Screenshots/portrait/screenshot-01.png" alt="News" width=400 height=375/></td>
-    <td><img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/feature/readme-file/Screenshots/portrait/screenshot-02.png" alt="News" width=400 height=375/></td>
-    <td><img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/feature/readme-file/Screenshots/portrait/screenshot-03.png" alt="News" width=400 height=375/></td>
-    <td><img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/feature/readme-file/Screenshots/portrait/screenshot-04.png" alt="News" width=400 height=375/></td>
+    <td><img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/develop/Screenshots/portrait/screenshot-01.png" alt="News" width=400 height=375/></td>
+    <td><img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/develop/Screenshots/portrait/screenshot-02.png" alt="News" width=400 height=375/></td>
+    <td><img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/develop/Screenshots/portrait/screenshot-03.png" alt="News" width=400 height=375/></td>
+    <td><img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/develop/Screenshots/portrait/screenshot-04.png" alt="News" width=400 height=375/></td>
   </tr>
 </table>
 
@@ -55,8 +55,8 @@ Below is an overview of the functionality implemented:
 
 <table style="width:100%">
   <tr>
-    <td><img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/feature/readme-file/Screenshots/landscape/screenshot-05.png" alt="News" width=800 height=200/></td>
-    <td><img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/feature/readme-file/Screenshots/landscape/screenshot-06.png" alt="News" width=800 height=200/></td>
+    <td><img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/develop/Screenshots/landscape/screenshot-05.png" alt="News" width=800 height=200/></td>
+    <td><img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/develop/Screenshots/landscape/screenshot-08.png" alt="News" width=800 height=200/></td>
   </tr>
 </table>
 
