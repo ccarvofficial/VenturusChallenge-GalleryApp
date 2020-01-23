@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SnapKit
+//import SnapKit
 import SDWebImage
 
 private let headerIdentifier = "HeaderView"
@@ -33,7 +33,7 @@ class HomeController: UICollectionViewController {
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
+        return .darkContent
     }
     
     // MARK: - Methods
