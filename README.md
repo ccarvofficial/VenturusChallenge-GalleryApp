@@ -60,6 +60,13 @@ Below is an overview of the functionality implemented:
   </tr>
 </table>
 
+<table style="width:100%">
+  <tr>
+    <td><img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/develop/Screenshots/landscape/screenshot-10.png" alt="News" width=800 height=200/></td>
+    <td><img src="https://github.com/ccarvofficial/VenturusChallenge-GalleryApp/blob/develop/Screenshots/landscape/screenshot-09.png" alt="News" width=800 height=200/></td>
+  </tr>
+</table>
+
 ## Used Dependecies (Libraries)
 
 * [**Moya**](https://github.com/Moya/Moya)
